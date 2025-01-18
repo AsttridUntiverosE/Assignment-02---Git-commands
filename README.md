@@ -14,7 +14,7 @@ Answer the following questions
    git commit -m ”add file”
 6. What command is used to view the status of the repository? Which files are in the Working directory, which files are staged
    git status
-7. What happens when you change the contents of a staged file? Does it stay staged, or does it move back to the working directory
+7. What happens when you change the contents of a staged file? Does it stay staged, or does it move back to the working directory?
    The file remains staged for the earlier changes, but the new modifications are in the working directory, you need to include the new changes with git add.
 8. What command is used to view the list of changes in a repository?
    git log
